@@ -1,0 +1,13 @@
+prefix=${pcfiledir}/../..
+
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavdevice
+Description: FFmpeg device handling library
+Version: 58.13.100
+Conflicts:
+Libs: -L"${libdir}"  -lavdevice -framework Foundation -framework AudioToolbox -framework CoreAudio -lm -framework AVFoundation -framework CoreVideo -framework CoreMedia -framework CoreGraphics -L/usr/local/Cellar/libxcb/1.14_1/lib -L/usr/local/Cellar/libxau/1.0.9/lib -L/usr/local/Cellar/libxdmcp/1.1.3/lib -lxcb -lXau -lXdmcp -L/usr/local/Cellar/libxcb/1.14_1/lib -L/usr/local/Cellar/libxau/1.0.9/lib -L/usr/local/Cellar/libxdmcp/1.1.3/lib -lxcb-shm -lxcb -lXau -lXdmcp -L/usr/local/Cellar/libxcb/1.14_1/lib -L/usr/local/Cellar/libxau/1.0.9/lib -L/usr/local/Cellar/libxdmcp/1.1.3/lib -lxcb-shape -lxcb -lXau -lXdmcp -L/usr/local/Cellar/libxcb/1.14_1/lib -L/usr/local/Cellar/libxau/1.0.9/lib -L/usr/local/Cellar/libxdmcp/1.1.3/lib -lxcb-xfixes -lxcb-render -lxcb-shape -lxcb -lXau -lXdmcp -framework AudioToolbox -pthread 
+Requires: libavfilter >= 7.110.100, libswscale >= 5.9.100, libavformat >= 58.76.100, libavcodec >= 58.134.100, libswresample >= 3.9.100, libavutil >= 56.70.100 
+Cflags: -I"${includedir}"
