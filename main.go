@@ -5,7 +5,7 @@ package main
 //#cgo LDFLAGS: -framework CoreAudio -framework AudioToolbox -framework AudioUnit -framework Carbon -framework CoreMedia
 //#cgo LDFLAGS: -framework MediaToolbox
 //#cgo LDFLAGS: -framework CoreGraphics -framework VideoToolBox -liconv -framework Accelerate -lbz2
-//#cgo LDFLAGS: -Wl,-framework,CoreFoundation -Wl,-framework,Security -Wl,-framework,VideoToolbox -Wl,-framework,CoreMedia -Wl,-framework,CoreVideo
+//#cgo LDFLAGS: -framework CoreFoundation -framework Security -framework CoreVideo
 //#include "hello.c"
 import "C"
 import "fmt"
