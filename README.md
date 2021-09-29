@@ -1,8 +1,11 @@
-# Example for Cgo With ffmpeg
+# Demo for Cgo With ffmpeg
 
 This is a demo for use ffmpeg by Golang project.
 
 It would be so simple to assembly C library by cgo .
+
+
+>It's only build ffmpeg for osx_64.if you want to support other platform,replace other platform library and edit the cgo import link flag)
 
 project tree list:
 
