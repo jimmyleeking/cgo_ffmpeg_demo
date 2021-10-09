@@ -1,4 +1,7 @@
 .DS_Store
 .idea/*
 main
+library/include/cmake-build-debug/*
+library/.idea/*
+
 

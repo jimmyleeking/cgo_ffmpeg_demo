@@ -1,0 +1,14 @@
+# libaom pkg-config.
+prefix=/Volumes/mac-data/Developer_Slow/cpp/vcpkg/packages/aom_x64-osx
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: aom
+Description: Alliance for Open Media AV1 codec library v3.1.2.
+Version: 3.1.2
+Requires:
+Conflicts:
+Libs: -L${libdir} -laom
+Libs.private: -lm -lpthread
+Cflags: -I${includedir}
